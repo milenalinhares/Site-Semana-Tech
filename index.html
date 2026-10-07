@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana Tech</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="topo">
+        <section>
+            <button class="botao-menu" onclick="abrirMenu()"> ≡ Menu </button>
+            <nav id="menu">
+                <a href="#inicio">Início</a>
+                <a href="#oficinas">Oficinas</a>
+                <a href="inscricoes.html">Minhas inscrições</a>
+                <a href="minha-conta.html">Minha conta</a>
+            </nav>
+        </section>
+    
+    </header>
+
+
+    <section class="banner" id="inicio">
+        <div class="overlay"></div>
+            <div class="banner-content">
+                <h1 class="display-3">SEMANA TECH <span style="color: #00e676;">2026</span> </h1>
+                <p class="lead">Onde ideias encontram tecnologia.</p>
+                <button class="botao">Ver programação</button>
+            </div>
+    </section>
+
+
+    <section>
+        <h2>Tema da página</h2>
+        <button class="botao-tema" onclick="mudarTema()">
+            Mudar tema
+        </button>
+    </section>
+
+    <section class="slider">
+        <button id="anterior">⬅️</button>
+        <div class="janela-slider">
+            <div class="img-slider">
+                <img src="assets/img/banner01.png" alt="img1">
+                <img src="assets/img/Arduino.jpeg" alt="img2">
+                <img src="assets/img/figma.jpeg" alt="img3">
+                <img src="assets/img/dev_app.jpeg" alt="img4">
+                <img src="assets/img/IA.jpeg" alt="img5">
+                <img src="assets/img/robotica.jpeg" alt="img6">
+            </div>
+        </div>
+        <button id="proximo">➡️</button>
+    </section>
+
+    <h3>Oficinas disponíveis:</h3>
+    <div class="linha-verde"></div>
+    <div class="filtros">
+        <input type="text" id="buscar" placeholder="Buscar oficina...">
+        <select id="ordenar">
+            <option value="">Ordenar por</option>
+            <option value="menor">Menor preço</option>
+            <option value="maior">Maior preço</option>
+        </select>
+    </div>
+
+    <h3 id="contador"> Minhas inscrições (0)
+    </h3>
+    
+    <div id="oficinas"></div>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minhas Inscrições</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Inscrições</h1>
+    </header>
+
+    <h2>Minhas inscrições</h2>
+
+    <p>Quantidade de cursos: <span id="quantidadeCursos">0</span></p>
+
+    <div class="Cursos"></div>
+
+    <p id="total">Total: R$ 0.00</p>
+
+    <a href="index.html">
+        ⬅️ Continuar inscrições
+    </a>
+
+      <section>
+        <h2>Tema da página</h2>
+        <button class="botao-tema" onclick="mudarTema()">
+            Mudar tema
+        </button>
+    </section>
+
+    <div id="modalRemover" class="modal">
+    <div class="modal-conteudo">
+        <h3>Confirmar remoção</h3>
+
+        <p>Deseja realmente remover esta oficina da sua inscricao?</p>
+
+        <button onclick="fecharModal()">
+            Cancelar
+        </button>
+
+        <button onclick="confirmarRemocao()">
+            Confirmar remoção
+        </button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
