@@ -5,56 +5,56 @@ let oficinas = [
         preco: 30,
         horario: "08:00",
         qtd_vagas: "20",
-        imagem: "/assets/img/robotica.jpeg"
+        imagem: "assets/img/robotica.jpeg"
     },
     {
         nome: "Criação de Jogos com JavaScript",
         preco: 45,
         horario: "09:00",
         qtd_vagas: "15",
-        imagem: "/assets/img/JS.jpeg"
+        imagem: "assets/img/JS.jpeg"
     },
     {
         nome: "Primeiros Passos com Arduíno",
         preco: 40,
         horario: "10:00",
         qtd_vagas: "18",
-        imagem: "/assets/img/Arduino.jpeg"
+        imagem: "assets/img/Arduino.jpeg"
     },
     {
         nome: "Design de Interfaces no Figma",
         preco: 25,
         horario: "13:00",
         qtd_vagas: "25",
-        imagem: "/assets/img/figma.jpeg"
+        imagem: "assets/img/figma.jpeg"
     },
     {
         nome: "Segurança na Internet",
         preco: 20,
         horario: "14:00",
         qtd_vagas: "30",
-        imagem: "/assets/img/segurançaInternet.jpeg"
+        imagem: "assets/img/segurançaInternet.jpeg"
     },
     {
         nome: "Introdução à Inteligência Artificial",
         preco: 50,
         horario: "15:00",
         qtd_vagas: "20",
-        imagem: "/assets/img/IA.jpeg"
+        imagem: "assets/img/IA.jpeg"
     },
     {
         nome: "Desenvolvimento de Aplicativos",
         preco: 55,
         horario: "16:00",
         qtd_vagas: "15",
-        imagem: "/assets/img/dev_app.jpeg"
+        imagem: "assets/img/dev_app.jpeg"
     },
     {
         nome: "Criação de Sites Responsivos",
         preco: 35,
         horario: "17:00",
         qtd_vagas: "25",
-        imagem: "/assets/img/sites.jpeg"
+        imagem: "assets/img/sites.jpeg"
     }
 ];
 
